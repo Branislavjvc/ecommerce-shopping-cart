@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--<meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+<title>Ecommerce Shopping Cart</title>
+<link rel="stylesheet" href='../ecommerce-shopping-cart/Assets/css/style.css' />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../ecommerce-shopping-cart/Assets/js/scripts.js"></script>
+</head>
+
+<body>
+
+<!--Cart-->
+
+<nav>
+    <div class="container">
+      <ul class="navbar-left">
+        <li><a id="backtostore" href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back To The Store</a></li>
+      </ul> <!--end navbar-left -->
+  
+      <ul class="navbar-right">
+        <li><a href="#"><i id="cart-toggle" class="fa fa-shopping-cart"></i></a></li>
+      </ul> <!--end navbar-right -->
+    </div> <!--end container -->
+  </nav>
+  
+  
+  <div id="shopping-cart" class="container">
+    <div class="shopping-cart">
+      <div class="shopping-cart-header">
+        <span id="cartItemsTotal" class="badge">My Cart: 5</span>
+        <div class="shopping-cart-total">
+          <span class="lighter-text">Total:</span>
+          <span id="priceTotal" class="highlight-price">$6,170.00</span>
+        </div>
+      </div> <!--end shopping-cart-header -->
+  
+      <ul class="shopping-cart-items">
+        <li class="listItem">
+          <img src="../ecommerce-shopping-cart/Assets/Regular-brake.png" width="70px" height="70px" />
+          <span class="list-item-name">Set of GT-S Series Cross Drilled</span>
+          <span class="list-item-desc">Brand: Brembo</span>
+          <span class="list-item-desc">Color: Red</span>
+          <span class="highlight-item-price" name="1770.00">1 x $1770.00</span>
+        </li>
+  <hr class="horizontalItemSepparator">
+
+        <li class="listItem">
+          <img src="../ecommerce-shopping-cart/Assets/Red-brake.png"  width="70px" height="70px" />
+          <span class="list-item-name">Just Disk GT-S Cross Drilled</span>
+          <span class="list-item-desc">Brand: Barbour International</span>
+          <span class="list-item-desc">Size: 405mm</span>
+          <span class="highlight-item-price" name="950.00">1 x $950.00</span>
+        </li>
+        <hr class="horizontalItemSepparator">
+  
+        <li class="listItem">
+          <img src="../ecommerce-shopping-cart/Assets/Yellow-brake.png"  width="70px" height="70px" />
+          <span class="list-item-name">GT Slotted 2 Piece Brake Rotors</span>
+          <span class="list-item-desc">Brand: Brembo</span>
+          <span class="list-item-desc">Color: Yellow</span>
+          <span class="highlight-item-price" name="1670.00">2 x $1670.00</span>
+        </li>
+        <hr class="horizontalItemSepparator">
+
+        <li class="listItem">
+          <img src="../ecommerce-shopping-cart/Assets/Brake-fluid.png"  width="70px" height="70px" />
+          <span class="list-item-name">Synthetic Brake Fluid</span>
+          <span class="list-item-desc">Brand: Valvoline</span>
+          <span class="list-item-desc">Size: 354ml</span>
+          <span class="highlight-item-price" name="10.00">1x $10.00</span>
+        </li>
+        <hr class="horizontalItemSepparator">
+  
+        <li class="listItem">
+          <img src="../ecommerce-shopping-cart/Assets/Regular-brake.png" width="70px" height="70px" />
+          <span class="list-item-name">Set of GT-S Series Cross Drilled</span>
+          <span class="list-item-desc">Brand: Brembo</span>
+          <span class="list-item-desc">Color: Red</span>
+          <span class="highlight-item-price" name="1770.00">1 x $1770.00</span>
+        </li>
+  
+      </ul>
+  
+      <a href="#" class="buttonEditCart">Edit Cart</a>
+      <a href="#" class="buttonCheckout">Checkout</a>
+      
+    </div> <!--end shopping-cart -->
+  </div> <!--end container -->
+
+</body>
+
+</html>
