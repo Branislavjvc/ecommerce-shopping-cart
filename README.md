@@ -7,4 +7,4 @@ Under The Hood:
 
 Preview:
 		
-	![](Screenshot.png)
+![](Screenshot.png)
